@@ -1,5 +1,14 @@
 .App {
-  background-color: #fefefe;
+  background-color: rgba(255, 255, 255, 0.2); /* semi-transparent */
+  padding: 1rem;
   height: 100%;
   width: 100%;
 }
+
+.background-container {
+  background-image: url('./images/King.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+

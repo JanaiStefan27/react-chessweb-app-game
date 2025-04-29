@@ -6,7 +6,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0f172a;
     position: sticky;
     top: 0;
 }
@@ -16,7 +15,7 @@ nav .title {
     margin: 1rem;
     font-weight: bold;
     text-decoration: none;
-    color: white;
+    color: #354980;
 }
 
 nav ul {
@@ -30,7 +29,7 @@ nav ul li {
 nav ul li a {
     display: block;
     text-decoration: none;
-    color: white;
+    color:#354980;
     padding: 0.5rem;
     margin: 0 0.5rem;
     border-radius: 0.5rem;
