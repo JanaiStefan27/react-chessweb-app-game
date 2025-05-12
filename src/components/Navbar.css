@@ -28,6 +28,7 @@ nav ul li {
 
 nav ul li a {
     display: block;
+    font-weight: bold;
     text-decoration: none;
     color:#354980;
     padding: 0.5rem;
