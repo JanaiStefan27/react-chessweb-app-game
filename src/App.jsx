@@ -4,6 +4,7 @@ import { Navbar } from "./components/Navbar";
 import { About, SignUp, Contact, Services, Home } from "./components/pages";
 import SignupModal from "./components/SignupModal";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 function App() {
   const [showSignUp, setShowSignUp] = useState(false);
@@ -19,6 +20,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/services" element={<Services />} />
         </Routes>
+        <Footer />
       </div>
     </div>
   );
